@@ -25,7 +25,8 @@ function drawCircle(canvas) {
     var randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
 
     circle.style.background = randomColor;
-    circle.style.size = size;
+    circle.style.width = size;
+    circle.style.height = size;
     circle.style.left = X;
     circle.style.top = Y;
     return circle;
